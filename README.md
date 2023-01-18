@@ -29,3 +29,10 @@
 ### Outputs
 - Triggers (bangs)
 - CV (0-1)
+
+| Input        | Process                        | Output           | Feedback      |
+| ------------ | ------------------------------ | ---------------- | ------------- |
+| Toggles      | Shift register (bidirectional) | Triggers (bangs) | Step sequence |
+| Decimal seed | Invert probabilistically       | CV               | Graph?        |
+| Binary seed  | Convert to bitstream           |                  |               |
+| Hex seed?    |                                |                  |               |
